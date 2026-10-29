@@ -1,0 +1,3928 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 10450
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 801.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 789.8899999999999864 Td
+(%pip install pandas numpy matplotlib seaborn scikit-learn nltk streamlit) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 779.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 767.8899999999999864 Td
+(Requirement already satisfied: pandas in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(3.0.3\)) Tj
+T* (Requirement already satisfied: numpy in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(2.4.6\)) Tj
+T* (Requirement already satisfied: matplotlib in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(3.11.1\)) Tj
+T* (Requirement already satisfied: seaborn in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(0.13.2\)) Tj
+T* (Requirement already satisfied: scikit-learn in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(1.9.0\)) Tj
+T* (Requirement already satisfied: nltk in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(3.10.2\)) Tj
+T* (Requirement already satisfied: streamlit in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(1.61.1\)) Tj
+T* (Requirement already satisfied: python-dateutil>=2.8.2 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from pandas\)) Tj
+T* (\(2.9.0.post0\)) Tj
+T* (Requirement already satisfied: tzdata in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from pandas\) \(2026.1\)) Tj
+T* (Requirement already satisfied: contourpy>=1.0.1 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\)) Tj
+T* (\(1.3.3\)) Tj
+T* (Requirement already satisfied: cycler>=0.10 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\) \(0.12.1\)) Tj
+T* (Requirement already satisfied: fonttools>=4.28.2 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\)) Tj
+T* (\(4.63.0\)) Tj
+T* (Requirement already satisfied: kiwisolver>=1.3.1 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\)) Tj
+T* (\(1.5.0\)) Tj
+T* (Requirement already satisfied: packaging>=20.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\)) Tj
+T* (\(26.1\)) Tj
+T* (Requirement already satisfied: pillow>=9 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\) \(12.3.0\)) Tj
+T* (Requirement already satisfied: pyparsing>=3 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from matplotlib\) \(3.3.2\)) Tj
+T* (Requirement already satisfied: scipy>=1.10.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from scikit-learn\)) Tj
+T* (\(1.18.0\)) Tj
+T* (Requirement already satisfied: joblib>=1.4.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from scikit-learn\) \(1.5.3\)) Tj
+T* (Requirement already satisfied: narwhals>=2.0.1 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from scikit-learn\)) Tj
+T* (\(2.24.0\)) Tj
+T* (Requirement already satisfied: threadpoolctl>=3.5.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from scikit-learn\)) Tj
+T* (\(3.6.0\)) Tj
+T* (Requirement already satisfied: defusedxml in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from nltk\) \(0.7.1\)) Tj
+T* (Requirement already satisfied: click in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from nltk\) \(8.4.0\)) Tj
+T* (Requirement already satisfied: regex>=2021.8.3 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from nltk\)) Tj
+T* (\(2026.7.19\)) Tj
+T* (Requirement already satisfied: tqdm in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from nltk\) \(4.67.3\)) Tj
+T* (Requirement already satisfied: altair!=5.4.0,!=5.4.1,<7,>=5.0.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(6.2.2\)) Tj
+T* (Requirement already satisfied: blinker<2,>=1.5.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(1.9.0\)) Tj
+T* (Requirement already satisfied: pydeck<1,>=0.8.0b4 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(0.9.3\)) Tj
+T* (Requirement already satisfied: protobuf<8,>=5.26.1 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(7.35.0\)) Tj
+T* (Requirement already satisfied: pyarrow<25,>=7.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(24.0.0\)) Tj
+T* (Requirement already satisfied: requests<3,>=2.27 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(2.33.1\)) Tj
+T* (Requirement already satisfied: tenacity<10,>=8.1.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(9.1.4\)) Tj
+T* (Requirement already satisfied: toml<2,>=0.10.1 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(0.10.2\)) Tj
+T* (Requirement already satisfied: typing-extensions<5,>=4.10.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(4.15.0\)) Tj
+T* (Requirement already satisfied: starlette<1.4.0,>=0.46.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(1.3.1\)) Tj
+T* (Requirement already satisfied: uvicorn<1,>=0.30.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(0.52.1\)) Tj
+T* (Requirement already satisfied: httptools<1,>=0.6.3 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(0.8.0\)) Tj
+T* (Requirement already satisfied: anyio<5,>=4.0.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(4.13.0\)) Tj
+T* (Requirement already satisfied: python-multipart<1,>=0.0.10 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(0.0.32\)) Tj
+T* (Requirement already satisfied: websockets<17,>=12.0.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(16.1.1\)) Tj
+T* (Requirement already satisfied: itsdangerous<3,>=2.1.2 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (streamlit\) \(2.2.0\)) Tj
+T* (Requirement already satisfied: watchdog<7,>=2.1.5 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from streamlit\)) Tj
+T* (\(6.0.0\)) Tj
+T* (Requirement already satisfied: jinja2 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(3.1.6\)) Tj
+T* (Requirement already satisfied: jsonschema>=3.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(4.26.0\)) Tj
+T* (Requirement already satisfied: idna>=2.8 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (anyio<5,>=4.0.0->streamlit\) \(3.11\)) Tj
+T* (Requirement already satisfied: colorama in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from click->nltk\) \(0.4.6\)) Tj
+T* (Requirement already satisfied: charset_normalizer<4,>=2 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (requests<3,>=2.27->streamlit\) \(3.4.7\)) Tj
+T* (Requirement already satisfied: urllib3<3,>=1.26 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (requests<3,>=2.27->streamlit\) \(2.6.3\)) Tj
+T* (Requirement already satisfied: certifi>=2023.5.7 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (requests<3,>=2.27->streamlit\) \(2026.2.25\)) Tj
+T* (Requirement already satisfied: h11>=0.8 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (uvicorn<1,>=0.30.0->streamlit\) \(0.16.0\)) Tj
+T* (Requirement already satisfied: MarkupSafe>=2.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (jinja2->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(3.0.3\)) Tj
+T* (Requirement already satisfied: attrs>=22.2.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(26.1.0\)) Tj
+T* (Requirement already satisfied: jsonschema-specifications>=2023.03.6 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages) Tj
+T* (\(from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(2025.9.1\)) Tj
+T* (Requirement already satisfied: referencing>=0.28.4 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(0.37.0\)) Tj
+T* (Requirement already satisfied: rpds-py>=0.25.0 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=5.0.0->streamlit\) \(0.30.0\)) Tj
+T* (Requirement already satisfied: six>=1.5 in C:\\Users\\Bhara\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages \(from) Tj
+T* (python-dateutil>=2.8.2->pandas\) \(1.17.0\)) Tj
+T* (Note: you may need to restart the kernel to use updated packages.) Tj
+T* () Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4555
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 799.8899999999999864 Td
+() Tj
+T* ([notice] A new release of pip is available: 26.0.1 -> 26.2.1) Tj
+T* ([notice] To update, run: python.exe -m pip install --upgrade pip) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 744.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 732.8899999999999864 Td
+(import pandas as pd) Tj
+T* (import numpy as np) Tj
+T* (import matplotlib.pyplot as plt) Tj
+T* (import seaborn as sns) Tj
+T* () Tj
+T* (from sklearn.model_selection import train_test_split) Tj
+T* (from sklearn.linear_model import LinearRegression) Tj
+T* (from sklearn.metrics import mean_absolute_error) Tj
+T* (from sklearn.metrics import mean_squared_error) Tj
+T* (from sklearn.metrics import r2_score) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 617.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 605.8899999999999864 Td
+(import os) Tj
+T* (print\(os.getcwd\(\)\)) Tj
+T* (print\(os.listdir\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 575.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 563.8899999999999864 Td
+(C:\\Users\\Bhara\\Desktop\\mouni\\Amazon.capstone) Tj
+T* (['.ipynb_checkpoints', 'Amazon.csv', 'amazon.r1.ipynb', 'amazon.r1.py', 'app.py', 'df.pkl', 'Readme.md', 'Readme.txt', 'sentiment_model.pkl',) Tj
+T* ('tfidf_vectorizer.pkl', 'vectorizer.pkl', 'vectors.pkl']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 508.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 496.8899999999999864 Td
+(** Dataset Check ** ) Tj
+T* (** Data Understanding **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 461.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 449.8899999999999864 Td
+(import pandas as pd) Tj
+T* () Tj
+T* (df = pd.read_csv\("Amazon.csv", engine="python"\)) Tj
+T* (df.head\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 409.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 397.8899999999999864 Td
+(      Reviewer Name                     Profile Link Country Review Count  \\) Tj
+T* (0        Eugene ath  /users/66e8185ff1598352d6b3701a      US     1 review   ) Tj
+T* (1  Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB    9 reviews   ) Tj
+T* (2          p fisher  /users/546cfcf1000064000197b88f      GB   90 reviews   ) Tj
+T* (3         Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU    5 reviews   ) Tj
+T* (4     Sheila Hannah  /users/5ddbe429478d88251550610e      GB    8 reviews   ) Tj
+T* () Tj
+T* (                Review Date                  Rating  \\) Tj
+T* (0  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* () Tj
+T* (                                      Review Title  \\) Tj
+T* (0       A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1           Had multiple orders one turned up and…   ) Tj
+T* (2                      I informed these reprobates   ) Tj
+T* (3  Advertise one price then increase it on website   ) Tj
+T* (4             If I could give a lower rate I would   ) Tj
+T* () Tj
+T* (                                         Review Text  Date of Experience  ) Tj
+T* (0  I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1  Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3  I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4  If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 112.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 100.8899999999999864 Td
+(df = pd.read_csv\("Amazon.csv", engine="python", on_bad_lines="skip"\)) Tj
+T* () Tj
+T* (print\(df.shape\)) Tj
+T* (df.head\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 60.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 48.8899999999999864 Td
+(\(21214, 9\)) Tj
+T* () Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 6701
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 799.8899999999999864 Td
+(      Reviewer Name                     Profile Link Country Review Count  \\) Tj
+T* (0        Eugene ath  /users/66e8185ff1598352d6b3701a      US     1 review   ) Tj
+T* (1  Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB    9 reviews   ) Tj
+T* (2          p fisher  /users/546cfcf1000064000197b88f      GB   90 reviews   ) Tj
+T* (3         Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU    5 reviews   ) Tj
+T* (4     Sheila Hannah  /users/5ddbe429478d88251550610e      GB    8 reviews   ) Tj
+T* () Tj
+T* (                Review Date                  Rating  \\) Tj
+T* (0  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* () Tj
+T* (                                      Review Title  \\) Tj
+T* (0       A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1           Had multiple orders one turned up and…   ) Tj
+T* (2                      I informed these reprobates   ) Tj
+T* (3  Advertise one price then increase it on website   ) Tj
+T* (4             If I could give a lower rate I would   ) Tj
+T* () Tj
+T* (                                         Review Text  Date of Experience  ) Tj
+T* (0  I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1  Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3  I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4  If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 514.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 502.8899999999999864 Td
+(print\(df.columns\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 492.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 480.8899999999999864 Td
+(Index\(['Reviewer Name', 'Profile Link', 'Country', 'Review Count',) Tj
+T* (       'Review Date', 'Rating', 'Review Title', 'Review Text',) Tj
+T* (       'Date of Experience'],) Tj
+T* (      dtype='str'\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 415.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 403.8899999999999864 Td
+(df) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 393.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 381.8899999999999864 Td
+(             Reviewer Name                     Profile Link Country  \\) Tj
+T* (0               Eugene ath  /users/66e8185ff1598352d6b3701a      US   ) Tj
+T* (1         Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB   ) Tj
+T* (2                 p fisher  /users/546cfcf1000064000197b88f      GB   ) Tj
+T* (3                Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU   ) Tj
+T* (4            Sheila Hannah  /users/5ddbe429478d88251550610e      GB   ) Tj
+T* (...                    ...                              ...     ...   ) Tj
+T* (21209             Anders T  /users/47bd4ffe0000640001001044      DK   ) Tj
+T* (21210              David E  /users/495bbbc0000064000100a972      US   ) Tj
+T* (21211       Joseph Harding  /users/48cfacbf0000640001005d04      GB   ) Tj
+T* (21212           Mads Dørup  /users/474aaec70000640001000a44      DK   ) Tj
+T* (21213  Kim Fuglsang Kramer  /users/46d1ed150000640001000051      DK   ) Tj
+T* () Tj
+T* (      Review Count               Review Date                  Rating  \\) Tj
+T* (0         1 review  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1        9 reviews  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2       90 reviews  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3        5 reviews  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4        8 reviews  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* (...            ...                       ...                     ...   ) Tj
+T* (21209     1 review  2009-03-22T13:14:12.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21210    2 reviews  2008-12-31T18:57:31.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21211    3 reviews  2008-09-16T13:05:05.000Z  Rated 3 out of 5 stars   ) Tj
+T* (21212   82 reviews  2008-04-28T11:09:05.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21213    2 reviews  2007-08-27T17:25:01.000Z  Rated 4 out of 5 stars   ) Tj
+T* () Tj
+T* (                                          Review Title  \\) Tj
+T* (0           A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1               Had multiple orders one turned up and…   ) Tj
+T* (2                          I informed these reprobates   ) Tj
+T* (3      Advertise one price then increase it on website   ) Tj
+T* (4                 If I could give a lower rate I would   ) Tj
+T* (...                                                ...   ) Tj
+T* (21209                                           Fast!!   ) Tj
+T* (21210                           Consistently Excellent   ) Tj
+T* (21211        Good prices but delivery can take time :\(   ) Tj
+T* (21212                      World-class online shopping   ) Tj
+T* (21213                                         No title   ) Tj
+T* () Tj
+T* (                                             Review Text  Date of Experience  ) Tj
+T* (0      I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1      Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2      I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3      I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4      If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+T* (...                                                  ...                 ...  ) Tj
+T* (21209  I have had perfect order fulfillment, and fast...      March 22, 2009  ) Tj
+T* (21210  I have had perfect order fulfillment, and fast...   December 31, 2008  ) Tj
+T* (21211  I always find myself going back to amazon beco...  September 16, 2008  ) Tj
+T* (21212  I have placed an abundance of orders with Amaz...      April 28, 2008  ) Tj
+T* (21213  those goods i've ordered by Amazon.com, have b...     August 27, 2007  ) Tj
+T* () Tj
+T* ([21214 rows x 9 columns]) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 4734
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(df = pd.read_csv\() Tj
+T* (    "Amazon.csv",) Tj
+T* (    encoding="utf-8",) Tj
+T* (    engine="python",) Tj
+T* (    on_bad_lines="skip") Tj
+T* (\)) Tj
+T* () Tj
+T* (print\("Dataset loaded successfully"\)) Tj
+T* (print\(df.head\(\)\)) Tj
+T* (print\(df.shape\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 699.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 687.8899999999999864 Td
+(Dataset loaded successfully) Tj
+T* (      Reviewer Name                     Profile Link Country Review Count  \\) Tj
+T* (0        Eugene ath  /users/66e8185ff1598352d6b3701a      US     1 review   ) Tj
+T* (1  Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB    9 reviews   ) Tj
+T* (2          p fisher  /users/546cfcf1000064000197b88f      GB   90 reviews   ) Tj
+T* (3         Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU    5 reviews   ) Tj
+T* (4     Sheila Hannah  /users/5ddbe429478d88251550610e      GB    8 reviews   ) Tj
+T* () Tj
+T* (                Review Date                  Rating  \\) Tj
+T* (0  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* () Tj
+T* (                                      Review Title  \\) Tj
+T* (0       A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1           Had multiple orders one turned up and…   ) Tj
+T* (2                      I informed these reprobates   ) Tj
+T* (3  Advertise one price then increase it on website   ) Tj
+T* (4             If I could give a lower rate I would   ) Tj
+T* () Tj
+T* (                                         Review Text  Date of Experience  ) Tj
+T* (0  I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1  Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3  I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4  If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+T* (\(21214, 9\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 372.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 360.8899999999999864 Td
+(print\(df.info\(\)\)) Tj
+T* (print\(df.describe\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 340.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 328.8899999999999864 Td
+(<class 'pandas.DataFrame'>) Tj
+T* (RangeIndex: 21214 entries, 0 to 21213) Tj
+T* (Data columns \(total 9 columns\):) Tj
+T* ( #   Column              Non-Null Count  Dtype) Tj
+T* (---  ------              --------------  -----) Tj
+T* ( 0   Reviewer Name       21214 non-null  str  ) Tj
+T* ( 1   Profile Link        21163 non-null  str  ) Tj
+T* ( 2   Country             21054 non-null  str  ) Tj
+T* ( 3   Review Count        21055 non-null  str  ) Tj
+T* ( 4   Review Date         21055 non-null  str  ) Tj
+T* ( 5   Rating              21055 non-null  str  ) Tj
+T* ( 6   Review Title        21055 non-null  str  ) Tj
+T* ( 7   Review Text         21055 non-null  str  ) Tj
+T* ( 8   Date of Experience  20947 non-null  str  ) Tj
+T* (dtypes: str\(9\)) Tj
+T* (memory usage: 13.7 MB) Tj
+T* (None) Tj
+T* (       Reviewer Name      Profile Link Country Review Count  \\) Tj
+T* (count          21214             21163   21054        21055   ) Tj
+T* (unique         18531             21156     148          177   ) Tj
+T* (top         customer  January 21, 2012      US     1 review   ) Tj
+T* (freq              72                 3    9286         5761   ) Tj
+T* () Tj
+T* (                     Review Date                  Rating Review Title  \\) Tj
+T* (count                      21055                   21055        21055   ) Tj
+T* (unique                     21054                       5        19277   ) Tj
+T* (top     2022-10-05T12:13:39.000Z  Rated 1 out of 5 stars    Excellent   ) Tj
+T* (freq                           2                   13123           52   ) Tj
+T* () Tj
+T* (                  Review Text Date of Experience  ) Tj
+T* (count                   21055              20947  ) Tj
+T* (unique                  20407               3640  ) Tj
+T* (top     Review text not found   January 11, 2021  ) Tj
+T* (freq                      630                 32  ) Tj
+T* () Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 6944
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(print\(df.isnull\(\).sum\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 789.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 777.8899999999999864 Td
+(Reviewer Name           0) Tj
+T* (Profile Link           51) Tj
+T* (Country               160) Tj
+T* (Review Count          159) Tj
+T* (Review Date           159) Tj
+T* (Rating                159) Tj
+T* (Review Title          159) Tj
+T* (Review Text           159) Tj
+T* (Date of Experience    267) Tj
+T* (dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 652.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 640.8899999999999864 Td
+(** Duplicate Records Remove **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 615.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 603.8899999999999864 Td
+(print\("Duplicate records:", df.duplicated\(\).sum\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 593.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 581.8899999999999864 Td
+(Duplicate records: 2) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 546.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 534.8899999999999864 Td
+(df = df.drop_duplicates\(\)) Tj
+T* () Tj
+T* (print\("Shape after removing duplicates:", df.shape\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 504.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 492.8899999999999864 Td
+(Shape after removing duplicates: \(21212, 9\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 457.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 445.8899999999999864 Td
+(** Missing Values Handle **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 420.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 408.8899999999999864 Td
+(print\(df.isnull\(\).sum\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 398.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 386.8899999999999864 Td
+(Reviewer Name           0) Tj
+T* (Profile Link           49) Tj
+T* (Country               158) Tj
+T* (Review Count          157) Tj
+T* (Review Date           157) Tj
+T* (Rating                157) Tj
+T* (Review Title          157) Tj
+T* (Review Text           157) Tj
+T* (Date of Experience    265) Tj
+T* (dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 261.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 249.8899999999999864 Td
+(df = df.dropna\(\)) Tj
+T* (df) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 229.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 217.8899999999999864 Td
+(             Reviewer Name                     Profile Link Country  \\) Tj
+T* (0               Eugene ath  /users/66e8185ff1598352d6b3701a      US   ) Tj
+T* (1         Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB   ) Tj
+T* (2                 p fisher  /users/546cfcf1000064000197b88f      GB   ) Tj
+T* (3                Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU   ) Tj
+T* (4            Sheila Hannah  /users/5ddbe429478d88251550610e      GB   ) Tj
+T* (...                    ...                              ...     ...   ) Tj
+T* (21209             Anders T  /users/47bd4ffe0000640001001044      DK   ) Tj
+T* (21210              David E  /users/495bbbc0000064000100a972      US   ) Tj
+T* (21211       Joseph Harding  /users/48cfacbf0000640001005d04      GB   ) Tj
+T* (21212           Mads Dørup  /users/474aaec70000640001000a44      DK   ) Tj
+T* (21213  Kim Fuglsang Kramer  /users/46d1ed150000640001000051      DK   ) Tj
+T* () Tj
+T* (      Review Count               Review Date                  Rating  \\) Tj
+T* (0         1 review  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1        9 reviews  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2       90 reviews  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3        5 reviews  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4        8 reviews  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* (...            ...                       ...                     ...   ) Tj
+T* (21209     1 review  2009-03-22T13:14:12.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21210    2 reviews  2008-12-31T18:57:31.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21211    3 reviews  2008-09-16T13:05:05.000Z  Rated 3 out of 5 stars   ) Tj
+T* (21212   82 reviews  2008-04-28T11:09:05.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21213    2 reviews  2007-08-27T17:25:01.000Z  Rated 4 out of 5 stars   ) Tj
+T* () Tj
+T* (                                          Review Title  \\) Tj
+T* (0           A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1               Had multiple orders one turned up and…   ) Tj
+T* (2                          I informed these reprobates   ) Tj
+T* (3      Advertise one price then increase it on website   ) Tj
+T* (4                 If I could give a lower rate I would   ) Tj
+T* (...                                                ...   ) Tj
+T* (21209                                           Fast!!   ) Tj
+T* (21210                           Consistently Excellent   ) Tj
+T* (21211        Good prices but delivery can take time :\(   ) Tj
+T* (21212                      World-class online shopping   ) Tj
+T* (21213                                         No title   ) Tj
+T* () Tj
+T* (                                             Review Text  Date of Experience  ) Tj
+T* (0      I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1      Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2      I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3      I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4      If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+T* (...                                                  ...                 ...  ) Tj
+T* (21209  I have had perfect order fulfillment, and fast...      March 22, 2009  ) Tj
+T* (21210  I have had perfect order fulfillment, and fast...   December 31, 2008  ) Tj
+T* (21211  I always find myself going back to amazon beco...  September 16, 2008  ) Tj
+T* (21212  I have placed an abundance of orders with Amaz...      April 28, 2008  ) Tj
+T* (21213  those goods i've ordered by Amazon.com, have b...     August 27, 2007  ) Tj
+T* () Tj
+T* ([20946 rows x 9 columns]) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 7087
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(print\("Columns in dataset:"\)) Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 779.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 767.8899999999999864 Td
+(Columns in dataset:) Tj
+T* (['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 722.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 710.8899999999999864 Td
+(** Review Rating Check **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 685.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 673.8899999999999864 Td
+(# Remove extra spaces from column names) Tj
+T* (df.columns = df.columns.str.strip\(\)) Tj
+T* () Tj
+T* (# Remove rows where Review Text is missing) Tj
+T* (df = df.dropna\(subset=["Review Text"]\)) Tj
+T* () Tj
+T* (# Fill missing Review Title values) Tj
+T* (df["Review Title"] = df["Review Title"].fillna\("Unknown"\)) Tj
+T* () Tj
+T* (# Check the data) Tj
+T* (print\("Dataset Shape:", df.shape\)) Tj
+T* (print\("\\nColumns:"\)) Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+T* () Tj
+T* (print\("\\nFirst 5 Reviews:"\)) Tj
+T* (print\(df[["Review Title", "Review Text", "Rating"]].head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 513.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 501.8899999999999864 Td
+(Dataset Shape: \(20946, 9\)) Tj
+T* () Tj
+T* (Columns:) Tj
+T* (['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']) Tj
+T* () Tj
+T* (First 5 Reviews:) Tj
+T* (                                      Review Title  \\) Tj
+T* (0       A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1           Had multiple orders one turned up and…   ) Tj
+T* (2                      I informed these reprobates   ) Tj
+T* (3  Advertise one price then increase it on website   ) Tj
+T* (4             If I could give a lower rate I would   ) Tj
+T* () Tj
+T* (                                         Review Text                  Rating  ) Tj
+T* (0  I registered on the website, tried to order a ...  Rated 1 out of 5 stars  ) Tj
+T* (1  Had multiple orders one turned up and driver h...  Rated 1 out of 5 stars  ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...  Rated 1 out of 5 stars  ) Tj
+T* (3  I have bought from Amazon before and no proble...  Rated 1 out of 5 stars  ) Tj
+T* (4  If I could give a lower rate I would! I cancel...  Rated 1 out of 5 stars  ) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 286.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 274.8899999999999864 Td
+(df = df.dropna\(subset=["Review Text"]\)) Tj
+T* (df) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 254.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 242.8899999999999864 Td
+(             Reviewer Name                     Profile Link Country  \\) Tj
+T* (0               Eugene ath  /users/66e8185ff1598352d6b3701a      US   ) Tj
+T* (1         Daniel ohalloran  /users/5d75e460200c1f6a6373648c      GB   ) Tj
+T* (2                 p fisher  /users/546cfcf1000064000197b88f      GB   ) Tj
+T* (3                Greg Dunn  /users/62c35cdbacc0ea0012ccaffa      AU   ) Tj
+T* (4            Sheila Hannah  /users/5ddbe429478d88251550610e      GB   ) Tj
+T* (...                    ...                              ...     ...   ) Tj
+T* (21209             Anders T  /users/47bd4ffe0000640001001044      DK   ) Tj
+T* (21210              David E  /users/495bbbc0000064000100a972      US   ) Tj
+T* (21211       Joseph Harding  /users/48cfacbf0000640001005d04      GB   ) Tj
+T* (21212           Mads Dørup  /users/474aaec70000640001000a44      DK   ) Tj
+T* (21213  Kim Fuglsang Kramer  /users/46d1ed150000640001000051      DK   ) Tj
+T* () Tj
+T* (      Review Count               Review Date                  Rating  \\) Tj
+T* (0         1 review  2024-09-16T13:44:26.000Z  Rated 1 out of 5 stars   ) Tj
+T* (1        9 reviews  2024-09-16T18:26:46.000Z  Rated 1 out of 5 stars   ) Tj
+T* (2       90 reviews  2024-09-16T21:47:39.000Z  Rated 1 out of 5 stars   ) Tj
+T* (3        5 reviews  2024-09-17T07:15:49.000Z  Rated 1 out of 5 stars   ) Tj
+T* (4        8 reviews  2024-09-16T18:37:17.000Z  Rated 1 out of 5 stars   ) Tj
+T* (...            ...                       ...                     ...   ) Tj
+T* (21209     1 review  2009-03-22T13:14:12.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21210    2 reviews  2008-12-31T18:57:31.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21211    3 reviews  2008-09-16T13:05:05.000Z  Rated 3 out of 5 stars   ) Tj
+T* (21212   82 reviews  2008-04-28T11:09:05.000Z  Rated 5 out of 5 stars   ) Tj
+T* (21213    2 reviews  2007-08-27T17:25:01.000Z  Rated 4 out of 5 stars   ) Tj
+T* () Tj
+T* (                                          Review Title  \\) Tj
+T* (0           A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1               Had multiple orders one turned up and…   ) Tj
+T* (2                          I informed these reprobates   ) Tj
+T* (3      Advertise one price then increase it on website   ) Tj
+T* (4                 If I could give a lower rate I would   ) Tj
+T* (...                                                ...   ) Tj
+T* (21209                                           Fast!!   ) Tj
+T* (21210                           Consistently Excellent   ) Tj
+T* (21211        Good prices but delivery can take time :\(   ) Tj
+T* (21212                      World-class online shopping   ) Tj
+T* (21213                                         No title   ) Tj
+T* () Tj
+T* (                                             Review Text  Date of Experience  ) Tj
+T* (0      I registered on the website, tried to order a ...  September 16, 2024  ) Tj
+T* (1      Had multiple orders one turned up and driver h...  September 16, 2024  ) Tj
+T* (2      I informed these reprobates that I WOULD NOT B...  September 16, 2024  ) Tj
+T* (3      I have bought from Amazon before and no proble...  September 17, 2024  ) Tj
+T* (4      If I could give a lower rate I would! I cancel...  September 16, 2024  ) Tj
+T* (...                                                  ...                 ...  ) Tj
+T* (21209  I have had perfect order fulfillment, and fast...      March 22, 2009  ) Tj
+T* (21210  I have had perfect order fulfillment, and fast...   December 31, 2008  ) Tj
+T* (21211  I always find myself going back to amazon beco...  September 16, 2008  ) Tj
+T* (21212  I have placed an abundance of orders with Amaz...      April 28, 2008  ) Tj
+T* (21213  those goods i've ordered by Amazon.com, have b...     August 27, 2007  ) Tj
+T* () Tj
+T* ([20946 rows x 9 columns]) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4844
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(# Clean column names) Tj
+T* (df.columns = df.columns.str.strip\(\)) Tj
+T* () Tj
+T* (# Remove rows with missing review text) Tj
+T* (df = df.dropna\(subset=["Review Text"]\)) Tj
+T* () Tj
+T* (# Fill missing review titles) Tj
+T* (df["Review Title"] = df["Review Title"].fillna\("Unknown"\)) Tj
+T* () Tj
+T* (print\("Data cleaning completed!"\)) Tj
+T* (print\("Dataset shape:", df.shape\)) Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 679.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 667.8899999999999864 Td
+(Data cleaning completed!) Tj
+T* (Dataset shape: \(20946, 9\)) Tj
+T* (['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 612.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 600.8899999999999864 Td
+(print\(df[["Review Title", "Review Text", "Rating"]].head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 590.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 578.8899999999999864 Td
+(                                      Review Title  \\) Tj
+T* (0       A Store That Doesn't Want to Sell Anything   ) Tj
+T* (1           Had multiple orders one turned up and…   ) Tj
+T* (2                      I informed these reprobates   ) Tj
+T* (3  Advertise one price then increase it on website   ) Tj
+T* (4             If I could give a lower rate I would   ) Tj
+T* () Tj
+T* (                                         Review Text                  Rating  ) Tj
+T* (0  I registered on the website, tried to order a ...  Rated 1 out of 5 stars  ) Tj
+T* (1  Had multiple orders one turned up and driver h...  Rated 1 out of 5 stars  ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...  Rated 1 out of 5 stars  ) Tj
+T* (3  I have bought from Amazon before and no proble...  Rated 1 out of 5 stars  ) Tj
+T* (4  If I could give a lower rate I would! I cancel...  Rated 1 out of 5 stars  ) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 423.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 411.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 401.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 389.8899999999999864 Td
+(['Reviewer Name', 'Profile Link', 'Country', 'Review Count', 'Review Date', 'Rating', 'Review Title', 'Review Text', 'Date of Experience']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 354.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 342.8899999999999864 Td
+(df.columns = df.columns.str.strip\(\).str.lower\(\)) Tj
+T* () Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 312.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 300.8899999999999864 Td
+(['reviewer name', 'profile link', 'country', 'review count', 'review date', 'rating', 'review title', 'review text', 'date of experience']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 265.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 253.8899999999999864 Td
+(print\("Columns:"\)) Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+T* () Tj
+T* (print\("\\nShape:"\)) Tj
+T* (print\(df.shape\)) Tj
+T* () Tj
+T* (print\("\\nFirst 5 rows:"\)) Tj
+T* (display\(df.head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 173.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 161.8899999999999864 Td
+(Columns:) Tj
+T* (['reviewer name', 'profile link', 'country', 'review count', 'review date', 'rating', 'review title', 'review text', 'date of experience']) Tj
+T* () Tj
+T* (Shape:) Tj
+T* (\(20946, 9\)) Tj
+T* () Tj
+T* (First 5 rows:) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 66.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 54.8899999999999864 Td
+(print\(df["rating"].value_counts\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 44.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 32.8899999999999864 Td
+(rating) Tj
+T* (Rated 1 out of 5 stars    13120) Tj
+T* (Rated 5 out of 5 stars     4447) Tj
+T* (Rated 4 out of 5 stars     1278) Tj
+T* (Rated 2 out of 5 stars     1227) Tj
+T* (Rated 3 out of 5 stars      874) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 3190
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(df["rating_number"] = df["rating"].str.extract\(r"\(\\d+\)"\).astype\(int\)) Tj
+T* () Tj
+T* (print\(df["rating_number"].value_counts\(\).sort_index\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 769.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 757.8899999999999864 Td
+(rating_number) Tj
+T* (1    13120) Tj
+T* (2     1227) Tj
+T* (3      874) Tj
+T* (4     1278) Tj
+T* (5     4447) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 662.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 650.8899999999999864 Td
+(** Sentiment Create **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 625.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 613.8899999999999864 Td
+(def sentiment\(rating\):) Tj
+T* (    if rating >= 4:) Tj
+T* (        return "Positive") Tj
+T* (    elif rating == 3:) Tj
+T* (        return "Neutral") Tj
+T* (    else:) Tj
+T* (        return "Negative") Tj
+T* () Tj
+T* (df["sentiment"] = df["rating_number"].apply\(sentiment\)) Tj
+T* () Tj
+T* (print\(df["sentiment"].value_counts\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 503.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 491.8899999999999864 Td
+(sentiment) Tj
+T* (Negative    14347) Tj
+T* (Positive     5725) Tj
+T* (Neutral       874) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 416.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 404.8899999999999864 Td
+(# Check columns) Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+T* () Tj
+T* (# Extract numeric rating) Tj
+T* (df["rating_number"] = df["rating"].str.extract\(r"\(\\d+\)"\).astype\(int\)) Tj
+T* () Tj
+T* (# Check rating distribution) Tj
+T* (print\(df["rating_number"].value_counts\(\).sort_index\(\)\)) Tj
+T* () Tj
+T* (# Create sentiment) Tj
+T* (def sentiment\(rating\):) Tj
+T* (    if rating >= 4:) Tj
+T* (        return "Positive") Tj
+T* (    elif rating == 3:) Tj
+T* (        return "Neutral") Tj
+T* (    else:) Tj
+T* (        return "Negative") Tj
+T* () Tj
+T* (df["sentiment"] = df["rating_number"].apply\(sentiment\)) Tj
+T* () Tj
+T* (# Check sentiment distribution) Tj
+T* (print\(df["sentiment"].value_counts\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 184.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 172.8899999999999864 Td
+(['reviewer name', 'profile link', 'country', 'review count', 'review date', 'rating', 'review title', 'review text', 'date of experience', 'rating_number', 'sentiment']) Tj
+T* (rating_number) Tj
+T* (1    13120) Tj
+T* (2     1227) Tj
+T* (3      874) Tj
+T* (4     1278) Tj
+T* (5     4447) Tj
+T* (Name: count, dtype: int64) Tj
+T* (sentiment) Tj
+T* (Negative    14347) Tj
+T* (Positive     5725) Tj
+T* (Neutral       874) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 3915
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(def sentiment\(rating\):) Tj
+T* (    if rating >= 4:) Tj
+T* (        return "Positive") Tj
+T* (    elif rating == 3:) Tj
+T* (        return "Neutral") Tj
+T* (    else:) Tj
+T* (        return "Negative") Tj
+T* () Tj
+T* (df["Sentiment"] = df["rating_number"].apply\(sentiment\)) Tj
+T* () Tj
+T* (print\(df["Sentiment"].value_counts\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 689.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 677.8899999999999864 Td
+(Sentiment) Tj
+T* (Negative    14347) Tj
+T* (Positive     5725) Tj
+T* (Neutral       874) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 602.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 590.8899999999999864 Td
+(** ReviewLength Create **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 565.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 553.8899999999999864 Td
+(df["ReviewLength"] = df["review text"].astype\(str\).apply\() Tj
+T* (    lambda x: len\(x.split\(\)\)) Tj
+T* (\)) Tj
+T* () Tj
+T* (print\(df[["review text", "ReviewLength"]].head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 503.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 491.8899999999999864 Td
+(                                         review text  ReviewLength) Tj
+T* (0  I registered on the website, tried to order a ...           106) Tj
+T* (1  Had multiple orders one turned up and driver h...            53) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...           122) Tj
+T* (3  I have bought from Amazon before and no proble...            82) Tj
+T* (4  If I could give a lower rate I would! I cancel...           100) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 406.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 394.8899999999999864 Td
+(df.columns = \() Tj
+T* (    df.columns) Tj
+T* (    .str.strip\(\)) Tj
+T* (    .str.lower\(\)) Tj
+T* (    .str.replace\(" ", "_"\)) Tj
+T* (\)) Tj
+T* () Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 314.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 302.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 257.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 245.8899999999999864 Td
+(** Year and Month Extract **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 220.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 208.8899999999999864 Td
+(df["review_date"] = pd.to_datetime\() Tj
+T* (    df["review_date"],) Tj
+T* (    errors="coerce") Tj
+T* (\)) Tj
+T* (print\(df["review_date"].head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 158.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 146.8899999999999864 Td
+(0   2024-09-16 13:44:26+00:00) Tj
+T* (1   2024-09-16 18:26:46+00:00) Tj
+T* (2   2024-09-16 21:47:39+00:00) Tj
+T* (3   2024-09-17 07:15:49+00:00) Tj
+T* (4   2024-09-16 18:37:17+00:00) Tj
+T* (Name: review_date, dtype: datetime64[us, UTC]) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 61.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 49.8899999999999864 Td
+(df["Year"] = df["review_date"].dt.year) Tj
+T* (df["Year"]) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 3886
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 799.8899999999999864 Td
+(0        2024) Tj
+T* (1        2024) Tj
+T* (2        2024) Tj
+T* (3        2024) Tj
+T* (4        2024) Tj
+T* (         ... ) Tj
+T* (21209    2009) Tj
+T* (21210    2008) Tj
+T* (21211    2008) Tj
+T* (21212    2008) Tj
+T* (21213    2007) Tj
+T* (Name: Year, Length: 20946, dtype: int32) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 664.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 652.8899999999999864 Td
+(df["Month"] = df["review_date"].dt.month) Tj
+T* (df["Month"]) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 632.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 620.8899999999999864 Td
+(0         9) Tj
+T* (1         9) Tj
+T* (2         9) Tj
+T* (3         9) Tj
+T* (4         9) Tj
+T* (         ..) Tj
+T* (21209     3) Tj
+T* (21210    12) Tj
+T* (21211     9) Tj
+T* (21212     4) Tj
+T* (21213     8) Tj
+T* (Name: Month, Length: 20946, dtype: int32) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 485.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 473.8899999999999864 Td
+(** NLP Text Preprocessing **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 448.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 436.8899999999999864 Td
+(** NLTK Install ** ) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 411.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 399.8899999999999864 Td
+(import nltk) Tj
+T* () Tj
+T* (nltk.download\("stopwords"\)) Tj
+T* (nltk.download\("wordnet"\)) Tj
+T* (nltk.download\("omw-1.4"\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 349.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 337.8899999999999864 Td
+([nltk_data] Downloading package stopwords to) Tj
+T* ([nltk_data]     C:\\Users\\Bhara\\AppData\\Roaming\\nltk_data...) Tj
+T* ([nltk_data]   Package stopwords is already up-to-date!) Tj
+T* ([nltk_data] Downloading package wordnet to) Tj
+T* ([nltk_data]     C:\\Users\\Bhara\\AppData\\Roaming\\nltk_data...) Tj
+T* ([nltk_data]   Package wordnet is already up-to-date!) Tj
+T* ([nltk_data] Downloading package omw-1.4 to) Tj
+T* ([nltk_data]     C:\\Users\\Bhara\\AppData\\Roaming\\nltk_data...) Tj
+T* ([nltk_data]   Package omw-1.4 is already up-to-date!) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 237.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 225.8899999999999864 Td
+(True) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 200.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 188.8899999999999864 Td
+(** Text Cleaning Function **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 163.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 151.8899999999999864 Td
+(import re) Tj
+T* (import string) Tj
+T* (from nltk.corpus import stopwords) Tj
+T* (from nltk.stem import WordNetLemmatizer) Tj
+T* () Tj
+T* (stop_words = set\(stopwords.words\("english"\)\)) Tj
+T* (lemmatizer = WordNetLemmatizer\(\)) Tj
+T* () Tj
+T* (def preprocess_text\(text\):) Tj
+T* (    text = str\(text\).lower\(\)) Tj
+T* () Tj
+T* (    # Remove punctuation) Tj
+T* (    text = text.translate\(str.maketrans\("", "", string.punctuation\)\)) Tj
+T* () Tj
+T* (    # Tokenization) Tj
+T* (    words = text.split\(\)) Tj
+T* () Tj
+T* (    # Remove stopwords and lemmatize) Tj
+T* (    words = [) Tj
+T* (        lemmatizer.lemmatize\(word\)) Tj
+T* (        for word in words) Tj
+T* (        if word not in stop_words) Tj
+T* (    ]) Tj
+T* () Tj
+T* (    return " ".join\(words\)) Tj
+ET
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 4853
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(df["Clean Review"] = df["review_text"].apply\(preprocess_text\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 774.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 762.8899999999999864 Td
+(print\(df[["review_text", "Clean Review"]].head\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 752.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 740.8899999999999864 Td
+(                                         review_text  \\) Tj
+T* (0  I registered on the website, tried to order a ...   ) Tj
+T* (1  Had multiple orders one turned up and driver h...   ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...   ) Tj
+T* (3  I have bought from Amazon before and no proble...   ) Tj
+T* (4  If I could give a lower rate I would! I cancel...   ) Tj
+T* () Tj
+T* (                                        Clean Review  ) Tj
+T* (0  registered website tried order laptop entered ...  ) Tj
+T* (1  multiple order one turned driver phone door nu...  ) Tj
+T* (2  informed reprobate would going visit sick rela...  ) Tj
+T* (3  bought amazon problem happy service price amaz...  ) Tj
+T* (4  could give lower rate would cancelled amazon p...  ) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 585.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 573.8899999999999864 Td
+(** Exploratory Data Analysis \(EDA\)  **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 548.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 536.8899999999999864 Td
+(import matplotlib.pyplot as plt) Tj
+T* (import seaborn as sns) Tj
+T* () Tj
+T* (plt.figure\(figsize=\(8,5\)\)) Tj
+T* () Tj
+T* (sns.countplot\(data=df, x="rating"\)) Tj
+T* () Tj
+T* (plt.title\("Rating Distribution"\)) Tj
+T* (plt.xlabel\("Rating"\)) Tj
+T* (plt.ylabel\("Number of Reviews"\)) Tj
+T* (plt.show\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 411.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 399.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 389.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 377.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 332.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 320.8899999999999864 Td
+(df.columns = df.columns.str.strip\(\)) Tj
+T* () Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 290.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 278.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 233.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 221.8899999999999864 Td
+(print\(df.columns[df.columns.duplicated\(\)]\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 211.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 199.8899999999999864 Td
+(Index\([], dtype='str'\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 164.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 152.8899999999999864 Td
+(df = df.loc[:, ~df.columns.duplicated\(\)]) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 127.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 115.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 105.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 93.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 48.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 36.8899999999999864 Td
+(** Sentiment Distribution **) Tj
+ET
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 26 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4505
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(import matplotlib.pyplot as plt) Tj
+T* (import seaborn as sns) Tj
+T* () Tj
+T* (plt.figure\(figsize=\(8,5\)\)) Tj
+T* () Tj
+T* (sns.countplot\(data=df, x="sentiment"\)) Tj
+T* () Tj
+T* (plt.title\("Sentiment Distribution"\)) Tj
+T* (plt.xlabel\("sentiment"\)) Tj
+T* (plt.ylabel\("Number of Reviews"\)) Tj
+T* () Tj
+T* (plt.show\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 664.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 652.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 642.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 630.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 585.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 573.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+T* (print\(df["sentiment"].value_counts\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 553.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 541.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* (sentiment) Tj
+T* (Negative    14347) Tj
+T* (Positive     5725) Tj
+T* (Neutral       874) Tj
+T* (Name: count, dtype: int64) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 446.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 434.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 424.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 412.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'Year', 'Month', 'Clean Review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 367.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 355.8899999999999864 Td
+(print\(df.columns[df.columns.duplicated\(\)]\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 345.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 333.8899999999999864 Td
+(Index\([], dtype='str'\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 298.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 286.8899999999999864 Td
+(print\("category" in df.columns\)) Tj
+T* (print\("Sentiment" in df.columns\)) Tj
+T* (print\("sentiment" in df.columns\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 256.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 244.8899999999999864 Td
+(False) Tj
+T* (False) Tj
+T* (True) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 189.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 177.8899999999999864 Td
+(df["category"] = df["rating_number"].map\({) Tj
+T* (    1: "1 Star",) Tj
+T* (    2: "2 Stars",) Tj
+T* (    3: "3 Stars",) Tj
+T* (    4: "4 Stars",) Tj
+T* (    5: "5 Stars") Tj
+T* (}\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 92.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 80.8899999999999864 Td
+(** Sentiment Distribution by Category **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 55.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 43.8899999999999864 Td
+(plt.figure\(figsize=\(12,6\)\)) Tj
+T* () Tj
+T* (sns.countplot\() Tj
+T* (    data=df,) Tj
+T* (    x="category",) Tj
+T* (    hue="sentiment") Tj
+T* (\)) Tj
+T* () Tj
+T* (plt.title\("Sentiment Distribution by Category"\)) Tj
+T* (plt.xticks\(rotation=45\)) Tj
+T* (plt.tight_layout\(\)) Tj
+T* (plt.show\(\)) Tj
+ET
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 28 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 3653
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 796.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 784.8899999999999864 Td
+(** Top 10 Most Reviewed Products **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 759.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 747.8899999999999864 Td
+(top_country = df["country"].value_counts\(\).head\(10\)) Tj
+T* () Tj
+T* (plt.figure\(figsize=\(10,6\)\)) Tj
+T* (top_country.sort_values\(\).plot\(kind="barh"\)) Tj
+T* () Tj
+T* (plt.title\("Top Countries by Reviews"\)) Tj
+T* (plt.xlabel\("Number of Reviews"\)) Tj
+T* (plt.ylabel\("Country"\)) Tj
+T* (plt.show\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 642.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 630.8899999999999864 Td
+(df["rating_number"].value_counts\(\).sort_index\(\).plot\(kind="bar"\)) Tj
+T* (plt.title\("Rating Distribution"\)) Tj
+T* (plt.title\("Top 10 Most Reviewed "\)) Tj
+T* (plt.xlabel\("Rating"\)) Tj
+T* (plt.ylabel\("Count"\)) Tj
+T* (plt.show\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 555.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 543.8899999999999864 Td
+(** Train-Test Split **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 518.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 506.8899999999999864 Td
+(from sklearn.model_selection import train_test_split) Tj
+T* () Tj
+T* (X = df["Clean Review"]) Tj
+T* (y = df["sentiment"]) Tj
+T* () Tj
+T* (X_train, X_test, y_train, y_test = train_test_split\() Tj
+T* (    X,) Tj
+T* (    y,) Tj
+T* (    test_size=0.2,) Tj
+T* (    random_state=42,) Tj
+T* (    stratify=y) Tj
+T* (\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 371.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 359.8899999999999864 Td
+(** TF-IDF Vectorization **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 334.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 322.8899999999999864 Td
+(from sklearn.feature_extraction.text import TfidfVectorizer) Tj
+T* () Tj
+T* (vectorizer = TfidfVectorizer\() Tj
+T* (    max_features=5000) Tj
+T* (\)) Tj
+T* () Tj
+T* (X_train_tfidf = vectorizer.fit_transform\(X_train\)) Tj
+T* () Tj
+T* (X_test_tfidf = vectorizer.transform\(X_test\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 217.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 205.8899999999999864 Td
+(** Machine Learning Model **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 180.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 168.8899999999999864 Td
+(from sklearn.linear_model import LogisticRegression) Tj
+T* () Tj
+T* (model = LogisticRegression\(max_iter=1000\)) Tj
+T* () Tj
+T* (model.fit\(X_train_tfidf, y_train\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 118.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 106.8899999999999864 Td
+(LogisticRegression\(max_iter=1000\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 81.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 69.8899999999999864 Td
+(** Prediction  **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 44.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 32.8899999999999864 Td
+(y_pred = model.predict\(X_test_tfidf\)) Tj
+T* () Tj
+T* (print\(y_pred[:10]\)) Tj
+ET
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 3372
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 799.8899999999999864 Td
+(['Negative' 'Positive' 'Negative' 'Negative' 'Negative' 'Negative') Tj
+T* ( 'Negative' 'Positive' 'Negative' 'Negative']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 754.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 742.8899999999999864 Td
+(** Model Evaluation **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 717.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 705.8899999999999864 Td
+(from sklearn.metrics import \() Tj
+T* (    accuracy_score,) Tj
+T* (    classification_report,) Tj
+T* (    confusion_matrix) Tj
+T* (\)) Tj
+T* () Tj
+T* (accuracy = accuracy_score\(y_test, y_pred\)) Tj
+T* () Tj
+T* (print\("Accuracy:", accuracy\)) Tj
+T* () Tj
+T* (print\(classification_report\(y_test, y_pred\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 595.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 583.8899999999999864 Td
+(Accuracy: 0.8894988066825775) Tj
+T* (              precision    recall  f1-score   support) Tj
+T* () Tj
+T* (    Negative       0.91      0.96      0.93      2870) Tj
+T* (     Neutral       0.67      0.01      0.02       175) Tj
+T* (    Positive       0.84      0.84      0.84      1145) Tj
+T* () Tj
+T* (    accuracy                           0.89      4190) Tj
+T* (   macro avg       0.81      0.61      0.60      4190) Tj
+T* (weighted avg       0.88      0.89      0.87      4190) Tj
+T* () Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 448.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 436.8899999999999864 Td
+(** Confusion Matrix **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 411.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 399.8899999999999864 Td
+(cm = confusion_matrix\(y_test, y_pred\)) Tj
+T* () Tj
+T* (plt.figure\(figsize=\(7,5\)\)) Tj
+T* () Tj
+T* (sns.heatmap\() Tj
+T* (    cm,) Tj
+T* (    annot=True,) Tj
+T* (    fmt="d",) Tj
+T* (    cmap="Blues") Tj
+T* (\)) Tj
+T* () Tj
+T* (plt.title\("Confusion Matrix"\)) Tj
+T* (plt.xlabel\("Predicted"\)) Tj
+T* (plt.ylabel\("Actual"\)) Tj
+T* () Tj
+T* (plt.show\(\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 224.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 212.8899999999999864 Td
+(** Save Model **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 187.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 175.8899999999999864 Td
+(import joblib) Tj
+T* () Tj
+T* (joblib.dump\(model, "sentiment_model.pkl"\)) Tj
+T* (joblib.dump\(vectorizer, "tfidf_vectorizer.pkl"\)) Tj
+T* () Tj
+T* (print\("Model and vectorizer saved successfully!"\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 115.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 103.8899999999999864 Td
+(Model and vectorizer saved successfully!) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 68.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 56.8899999999999864 Td
+(** Model Load **) Tj
+ET
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 3758
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 799.8899999999999864 Td
+(import joblib) Tj
+T* () Tj
+T* (model = joblib.load\("sentiment_model.pkl"\)) Tj
+T* (vectorizer = joblib.load\("tfidf_vectorizer.pkl"\)) Tj
+T* () Tj
+T* (joblib.dump\(vectorizer, "vectorizer.pkl"\)) Tj
+T* (joblib.dump\(vectors, "vectors.pkl"\)) Tj
+T* (joblib.dump\(df, "df.pkl"\)) Tj
+T* () Tj
+T* (print\("I love this product. Battery life is excellent"\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 699.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 687.8899999999999864 Td
+(I love this product. Battery life is excellent) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 652.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 640.8899999999999864 Td
+(review = ["This product is amazing"]) Tj
+T* () Tj
+T* (review_vector = vectorizer.transform\(review\)) Tj
+T* () Tj
+T* (prediction = model.predict\(review_vector\)) Tj
+T* () Tj
+T* (print\(prediction\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 570.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 558.8899999999999864 Td
+(['Positive']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 523.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 511.8899999999999864 Td
+(prediction = model.predict\(review_vector\)) Tj
+T* () Tj
+T* (print\("Predicted Sentiment:", prediction[0]\)) Tj
+T* () Tj
+T* (if prediction[0] == "Positive":) Tj
+T* (    print\("\\nRecommended Products:"\)) Tj
+T* (    print\("1. Product A"\)) Tj
+T* (    print\("2. Product B"\)) Tj
+T* (    print\("3. Product C"\)) Tj
+T* () Tj
+T* (elif prediction[0] == "Negative":) Tj
+T* (    print\("\\nRecommended Products:"\)) Tj
+T* (    print\("1. Customer Support"\)) Tj
+T* (    print\("2. Alternative Product"\)) Tj
+T* (    print\("3. Refund / Replacement"\)) Tj
+T* () Tj
+T* (else:) Tj
+T* (    print\("\\nNeutral Review"\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 331.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 319.8899999999999864 Td
+(Predicted Sentiment: Positive) Tj
+T* () Tj
+T* (Recommended Products:) Tj
+T* (1. Product A) Tj
+T* (2. Product B) Tj
+T* (3. Product C) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 234.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 222.8899999999999864 Td
+(df.columns = \() Tj
+T* (    df.columns) Tj
+T* (    .str.strip\(\)) Tj
+T* (    .str.lower\(\)) Tj
+T* (    .str.replace\(" ", "_"\)) Tj
+T* (\)) Tj
+T* () Tj
+T* (print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 142.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 130.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'year', 'month', 'clean_review', 'category']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 85.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 73.8899999999999864 Td
+(import re) Tj
+T* () Tj
+T* (def clean_text\(text\):) Tj
+T* (    text = str\(text\).lower\(\)) Tj
+T* (    text = re.sub\(r"[^a-zA-Z\\s]", "", text\)) Tj
+T* (    text = re.sub\(r" ", " ", text\).strip\(\)) Tj
+T* (    return text) Tj
+T* () Tj
+T* (df["clean_review"] = df["review_text"].apply\(clean_text\)) Tj
+T* () Tj
+T* (print\(df[["review_text", "clean_review"]].head\(\)\)) Tj
+ET
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 4053
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 799.8899999999999864 Td
+(                                         review_text  \\) Tj
+T* (0  I registered on the website, tried to order a ...   ) Tj
+T* (1  Had multiple orders one turned up and driver h...   ) Tj
+T* (2  I informed these reprobates that I WOULD NOT B...   ) Tj
+T* (3  I have bought from Amazon before and no proble...   ) Tj
+T* (4  If I could give a lower rate I would! I cancel...   ) Tj
+T* () Tj
+T* (                                        clean_review  ) Tj
+T* (0  i registered on the website tried to order a l...  ) Tj
+T* (1  had multiple orders one turned up and driver h...  ) Tj
+T* (2  i informed these reprobates that i would not b...  ) Tj
+T* (3  i have bought from amazon before and no proble...  ) Tj
+T* (4  if i could give a lower rate i would i cancell...  ) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 644.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 632.8899999999999864 Td
+(from sklearn.feature_extraction.text import TfidfVectorizer) Tj
+T* () Tj
+T* (vectorizer = TfidfVectorizer\() Tj
+T* (    max_features=5000,) Tj
+T* (    stop_words="english") Tj
+T* (\)) Tj
+T* () Tj
+T* (vectors = vectorizer.fit_transform\(df["clean_review"]\)) Tj
+T* () Tj
+T* (print\("TF-IDF Shape:", vectors.shape\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 532.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 520.8899999999999864 Td
+(TF-IDF Shape: \(20946, 5000\)) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 485.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 473.8899999999999864 Td
+(** Streamlit Application **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 448.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 436.8899999999999864 Td
+(import streamlit as st) Tj
+T* (import joblib) Tj
+T* (import re) Tj
+T* (import string) Tj
+T* () Tj
+T* (from nltk.corpus import stopwords) Tj
+T* (from nltk.stem import WordNetLemmatizer) Tj
+T* () Tj
+T* (from sklearn.metrics.pairwise import cosine_similarity) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 331.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 319.8899999999999864 Td
+(model = joblib.load\("sentiment_model.pkl"\)) Tj
+T* (vectorizer = joblib.load\("tfidf_vectorizer.pkl"\)) Tj
+T* () Tj
+T* (joblib.dump\(vectorizer, "vectorizer.pkl"\)) Tj
+T* (joblib.dump\(vectors, "vectors.pkl"\)) Tj
+T* (joblib.dump\(df, "df.pkl"\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 259.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.784 rg
+30. 247.8899999999999864 Td
+(['df.pkl']) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 222.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 210.8899999999999864 Td
+(review = input\("Enter your product review: "\)) Tj
+T* () Tj
+T* (print\("\\nYour review:"\)) Tj
+T* (print\(review\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 170.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 158.8899999999999864 Td
+(Enter your product review:  Very Much Excellent) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 138.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 126.8899999999999864 Td
+() Tj
+T* (Your review:) Tj
+T* (Very Much Excellent) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 71.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 59.8899999999999864 Td
+(cleaned_review = preprocess_text\(review\)) Tj
+T* () Tj
+T* (review_vector = vectorizer.transform\([cleaned_review]\)) Tj
+T* () Tj
+T* (prediction = model.predict\(review_vector\)[0]) Tj
+T* () Tj
+T* (print\("Predicted Sentiment:", prediction\)) Tj
+ET
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 4462
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 799.8899999999999864 Td
+(Predicted Sentiment: Negative) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 764.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 752.8899999999999864 Td
+(** Predict Sentiment **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 727.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 715.8899999999999864 Td
+(def preprocess_text\(text\):) Tj
+T* (    text = str\(text\).lower\(\)) Tj
+T* () Tj
+T* (    text = text.translate\() Tj
+T* (        str.maketrans\("", "", string.punctuation\)) Tj
+T* (    \)) Tj
+T* () Tj
+T* (    words = text.split\(\)) Tj
+T* () Tj
+T* (    words = [) Tj
+T* (        lemmatizer.lemmatize\(word\)) Tj
+T* (        for word in words) Tj
+T* (        if word not in stop_words) Tj
+T* (    ]) Tj
+T* () Tj
+T* (    return " ".join\(words\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 540.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 528.8899999999999864 Td
+(cleaned_review = preprocess_text\(review\)) Tj
+T* (vector = vectorizer.transform\([cleaned_review]\)) Tj
+T* (print\(cleaned_review\)) Tj
+T* (prediction = model.predict\(vector\)[0]) Tj
+T* (print\(vector\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 478.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 466.8899999999999864 Td
+(best one) Tj
+T* (<Compressed Sparse Row sparse matrix of dtype 'float64') Tj
+T* (        with 1 stored elements and shape \(1, 5000\)>) Tj
+T* (  Coords        Values) Tj
+T* (  \(0, 452\)        1.0) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 391.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 379.8899999999999864 Td
+(df["cleaned_review"] = df["review_text"].fillna\(""\).astype\(str\).apply\(preprocess_text\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 354.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 342.8899999999999864 Td
+(** Top 3 Similar Products **) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 317.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 305.8899999999999864 Td
+(input_vector = vectorizer.transform\([cleaned_review]\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 280.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 268.8899999999999864 Td
+(from sklearn.metrics.pairwise import cosine_similarity) Tj
+T* () Tj
+T* (input_vector = vectorizer.transform\([cleaned_review]\)) Tj
+T* (similarities = cosine_similarity\() Tj
+T* (    input_vector,) Tj
+T* (    product_vectors) Tj
+T* (\).flatten\(\)) Tj
+T* () Tj
+T* (print\(similarities[:5]\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 178.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 166.8899999999999864 Td
+([0. 0. 0. 0. 0.]) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 131.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 119.8899999999999864 Td
+(print\(df.columns.tolist\(\)\)) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 109.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 97.8899999999999864 Td
+(['reviewer_name', 'profile_link', 'country', 'review_count', 'review_date', 'rating', 'review_title', 'review_text', 'date_of_experience', 'rating_number',) Tj
+T* ('sentiment', 'reviewlength', 'year', 'month', 'clean_review', 'category', 'cleaned_review']) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 52.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 40.8899999999999864 Td
+(top_indices = similarities.argsort\(\)[-3:][::-1]) Tj
+T* () Tj
+T* (print\("Top 3 Similar Customer Reviews"\)) Tj
+T* (print\("=" * 50\)) Tj
+T* () Tj
+T* (for i in top_indices:) Tj
+T* (    print\("Review Title:", df.iloc[i]["review_title"]\)) Tj
+T* (    print\("Rating:", df.iloc[i]["rating"]\)) Tj
+T* (    print\("Similarity:", round\(score, 2\)\)) Tj
+T* (    print\("Country:", df.iloc[i]["country"]\)) Tj
+T* (    print\("Review:", df.iloc[i]["review_text"]\)) Tj
+T* (    print\("-" * 50\)) Tj
+ET
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 2173
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 811.8899999999999864 Td
+(Output:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0.502 0. rg
+30. 799.8899999999999864 Td
+(Top 3 Similar Customer Reviews) Tj
+T* (==================================================) Tj
+T* (Review Title: Amazon's packaging needs to be addressed) Tj
+T* (Rating: Rated 1 out of 5 stars) Tj
+T* (Similarity: 1.0) Tj
+T* (Country: GB) Tj
+T* (Review: I recently ordered a nice mug on amazon and I was even excited the night prior to the product's arrival. The  package arrived and when) Tj
+T* (unravelled I was shocked to discover that the mug was packed so poorly that it had cracked!) Tj
+T* (--------------------------------------------------) Tj
+T* (Review Title: Very trust) Tj
+T* (Rating: Rated 5 out of 5 stars) Tj
+T* (Similarity: 1.0) Tj
+T* (Country: US) Tj
+T* (Review: fast shipping) Tj
+T* (--------------------------------------------------) Tj
+T* (Review Title: I have been a Prime Member for many…) Tj
+T* (Rating: Rated 1 out of 5 stars) Tj
+T* (Similarity: 1.0) Tj
+T* (Country: US) Tj
+T* (Review: I have been a Prime Member for many years. Their  delivery is getting very bad.  Every time I order using Prime and the day of delivery it is) Tj
+T* (move to a later date.  I pay for prime I should receive it on the date it states it will arrive !) Tj
+T* (--------------------------------------------------) Tj
+T* () Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 554.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 542.8899999999999864 Td
+(34. Run Streamlit) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 517.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 505.8899999999999864 Td
+(streamlit run app.py) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 480.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 468.8899999999999864 Td
+(http://192.168.0.102:8501/) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 g
+30. 443.8899999999999864 Td
+(Code Cell:) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0. 0. 0.588 rg
+30. 431.8899999999999864 Td
+() Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R ]
+/Count 18
+>>
+endobj
+39 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+40 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+41 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+42 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+43 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+44 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+45 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+46 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+47 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+48 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+49 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+50 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+51 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+52 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 39 0 R
+/F2 40 0 R
+/F3 41 0 R
+/F4 42 0 R
+/F5 43 0 R
+/F6 44 0 R
+/F7 45 0 R
+/F8 46 0 R
+/F9 47 0 R
+/F10 48 0 R
+/F11 49 0 R
+/F12 50 0 R
+/F13 51 0 R
+/F14 52 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+53 0 obj
+<<
+/Producer (jsPDF 2.3.1)
+/CreationDate (D:20260809192758+05'30')
+>>
+endobj
+54 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 55
+0000000000 65535 f 
+0000090597 00000 n 
+0000092536 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000010655 00000 n 
+0000010792 00000 n 
+0000015399 00000 n 
+0000015536 00000 n 
+0000022289 00000 n 
+0000022427 00000 n 
+0000027214 00000 n 
+0000027353 00000 n 
+0000034350 00000 n 
+0000034489 00000 n 
+0000041629 00000 n 
+0000041768 00000 n 
+0000046665 00000 n 
+0000046804 00000 n 
+0000050047 00000 n 
+0000050186 00000 n 
+0000054154 00000 n 
+0000054293 00000 n 
+0000058232 00000 n 
+0000058371 00000 n 
+0000063277 00000 n 
+0000063416 00000 n 
+0000067974 00000 n 
+0000068113 00000 n 
+0000071819 00000 n 
+0000071958 00000 n 
+0000075383 00000 n 
+0000075522 00000 n 
+0000079333 00000 n 
+0000079472 00000 n 
+0000083578 00000 n 
+0000083717 00000 n 
+0000088232 00000 n 
+0000088371 00000 n 
+0000090771 00000 n 
+0000090897 00000 n 
+0000091028 00000 n 
+0000091162 00000 n 
+0000091300 00000 n 
+0000091424 00000 n 
+0000091553 00000 n 
+0000091685 00000 n 
+0000091821 00000 n 
+0000091949 00000 n 
+0000092076 00000 n 
+0000092205 00000 n 
+0000092338 00000 n 
+0000092440 00000 n 
+0000092789 00000 n 
+0000092875 00000 n 
+trailer
+<<
+/Size 55
+/Root 54 0 R
+/Info 53 0 R
+/ID [ <890DD6DA080F1BA53F27E5BC2E7E6232> <890DD6DA080F1BA53F27E5BC2E7E6232> ]
+>>
+startxref
+92979
+%%EOF
